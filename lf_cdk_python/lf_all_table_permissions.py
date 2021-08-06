@@ -24,5 +24,6 @@ class LfAllDbTablePermissions(cdk.Construct):
                     table_wildcard={}
                 )
             ),
-            permissions=permissions
+            permissions=permissions,
+            permissions_with_grant_option=permissions
         )

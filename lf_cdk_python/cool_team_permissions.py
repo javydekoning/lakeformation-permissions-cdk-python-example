@@ -9,7 +9,7 @@ class CoolTeamPermissionsStack(cdk.Stack):
         super().__init__(scope, construct_id, **kwargs)
 
         LfAllDbTablePermissions(self, 'CoolTeamPermissions',
-                                data_lake_principal_identifier='991880991323',
+                                data_lake_principal_identifier='876636009682',
                                 permissions=['SELECT', 'DESCRIBE'],
                                 database_name='sampledb'
                                 )
